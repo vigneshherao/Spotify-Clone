@@ -15,6 +15,7 @@ body{
     width: 340px;
     background-color: #121212;
     border-radius: 1rem;
+    margin-right: 0.5rem;
 }
 .main-content{
     flex: 1;
@@ -84,5 +85,34 @@ a{
     display: flex;
 }
 .plus-icon:hover{
+    opacity: 1;
+}
+.box{
+    background-color: #242424;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    padding: 1rem 1.25rem;
+}
+.para1{
+    font-size: 0.9rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+.para2{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.badge{
+    font-weight: 700;
+    padding: 0.25rem 1rem;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    height: 2rem;
+    width: fit-content;
+    opacity: 0.8;
+}
+.badge:hover{
     opacity: 1;
 }
